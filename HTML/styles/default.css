@@ -1,0 +1,505 @@
+*{
+  font-family: Arial;
+  margin:0;
+  padding:0;
+  /*max-width:100%;*/
+  overflow-x:hidden;
+ }
+ 
+ body
+ {
+	 background-image:url("../image/bodybg.png")
+ }
+ 
+ a,a:link,a:active,a:visited
+  {
+	color:black;
+	text-decoration:none;
+ }
+ 
+
+#header ul li
+ {
+	list-style:none; 
+	display: inline-block;
+ }
+ 
+ #header
+ {
+	background:#68f;
+	display: flex;
+	
+ }
+  #header ul
+	{
+		flex:1;
+		padding: 10px 0;
+		text-align:center;
+	}
+
+#header ul li a
+{
+	color: #fff;
+	padding:10px;
+	display: inline-block;
+	transition:1s;
+	border-radius:5px;
+}
+
+
+ #header ul li a:hover
+{
+	background:#fff;
+	color: #69f;
+}
+
+#header ul li:nth-child(2) a
+{
+	background: #f96;
+	border-bottom: solid 3px #d74;
+}
+
+#header ul li a:active
+{
+	margin-top:3px;
+	border: none;
+}
+
+.logo
+{
+	padding:30px;
+}
+
+#header div a
+{
+	display:inline-block;
+	padding: 10px;
+}
+.fab.fa-facebook-square
+{
+	font-size: 25px;
+	color: #fff;
+}
+.fab.fa-instagram
+{
+	font-size: 25px;
+	color: #fff;
+}
+.fab.fa-google-plus-g
+{
+	font-size: 25px;
+	color: #fff;
+}
+
+#cover
+{
+	background: url("../image/homebg.png") no-repeat fixed center 100%;
+	display:flex;
+}
+
+#cover div h1
+{
+ padding: 20px;
+ font-size: 350%;
+ margin-left:100px;
+ color:#fff;
+}
+
+#cover div ul
+{
+	padding:20px 20px;
+	margin-left:100px;
+}
+#cover div ul li a
+{
+	display:inline-block;
+	color: #fff;
+	padding:15px 20px;
+	border-radius:5px;
+	margin-right: 10px;
+}
+
+#cover div ul li a:hover
+{
+color: #ddd;
+}
+
+#cover div ul li:nth-child(1) a
+{
+	background: #f66;
+	border-bottom: solid 3px #f00;
+}
+
+#cover div ul li:nth-child(1) a:active
+{
+	border:none;
+}
+
+#cover div ul li:nth-child(2) a
+{
+	background: #00d;
+	border-bottom: solid 3px #003;
+}
+
+#cover div ul li:nth-child(2) a:active
+{
+	border:none;
+}
+
+#cover div ul li
+{
+	list-style:none; 
+	display: inline-block;
+}
+
+#cover .left
+{
+	float: left;
+	width:50%
+	/*padding:110px 30px 50px 200px;*/
+}
+
+#cover .right
+{
+	width:50%
+	/*padding:110px 200px 50px 30px;*/
+}
+
+
+#features
+{
+	padding-top:80px;
+}
+
+#features .container
+{
+	display:flex;
+}
+.subheading
+{
+	text-align:center;
+	font-size:200%;
+	color: #67f;
+}
+
+.para
+{
+	text-align:center;
+	padding:10px 10px 100px 10px;
+}
+
+#features .container .usability
+{
+	float:left;
+	width:33.3%;
+}
+
+.fas.fa-layer-group
+{
+	color:#f96;
+	font-size: 50px;
+}
+.far.fa-gem
+{
+	color:#f96;
+	font-size: 50px;
+}
+
+.fas.fa-palette
+{
+	color:#f96;
+	font-size: 50px;
+}
+/* .fas.fa-layer-group
+{
+	size:9px;
+} */
+
+/* #features .container .usability div h2
+{
+	padding: 10px 30px 10px 0;
+}
+#features .container .usability div p
+{
+	padding: 10px 30px 10px 0;
+	text-align: justify;
+} */
+
+#features .container .parallax
+{
+	float:left;
+	width:33.3%;
+}
+
+/* #features .container .parallax div h2
+{
+	padding: 10px 30px 10px 0;
+}
+#features .container .parallax div p
+{
+	padding: 10px 70px 10px 0;
+	text-align: justify;
+} */
+
+#features .container .colors
+{
+	width:33%;
+}
+
+
+/* #features .container .colors div h2
+{
+	padding: 10px 200px 10px 0;
+}
+#features .container .colors div p
+{
+	padding: 10px 200px 10px 0;
+	text-align: justify;
+} */
+
+#features img
+{
+	padding: 10px 350px;
+}
+
+
+#screenshots
+{
+padding-top: 80px;
+}
+
+#screenshots .cloudy
+{
+	display:flex;
+}
+
+#screenshots .cloudy .left
+{
+	
+	float:left;
+	width: 50%;
+	text-align: center;
+}
+
+#screenshots .cloudy .right
+{
+	width:50%;
+	align-self: center;
+}
+
+#screenshots .cloudy .right h2
+{
+	padding: 50px 0 20px 0;
+	font-size: 200%;
+}
+
+#screenshots .cloudy .right p
+{
+	font-size: 150%;
+	padding: 10px 0 20px 0;
+	text-align: justify	;
+}
+
+#screenshots .sunny
+{
+	display:flex;
+}
+
+#screenshots .sunny .left
+{
+	width:50%;
+	float:left;
+	font-size:150%;
+	padding: 200px 200px 25px 300px;
+	align-self: center;
+}
+
+#screenshots .sunny .left h2
+{
+	padding: 50px 0 20px 0;
+	font-size: 150%;
+}
+
+#screenshots .sunny .left p
+{
+	font-size: 100%;
+	padding: 10px 0 20px 0;
+	text-align: justify;
+}
+
+#screenshots .sunny .right
+{
+	width:50%;
+	text-align: center;
+}
+
+
+#reviews h1
+{
+	padding-top: 150px;
+	font-size: 200%;
+	color: #67f;
+	text-align: center;
+}
+
+.review
+{
+	display:flex;
+	text-align: justify;
+	align-items: center;
+	margin-left: 200px;
+	margin-right: 50px;
+}
+
+.review h2
+{
+	padding:20px 0;
+	text-align: justify;
+}
+
+.review p
+{
+	font-weight: bold;
+}
+
+.review1
+{
+	/* padding:10px 50px 10px 300px; */
+	float: left;
+	width:50%;
+}
+
+.review2
+{
+	/* padding:10px 200px 10px 50px; */
+	width:50%;
+}
+
+.fas.fa-quote-left
+{
+	color: #67f
+}
+.fas.fa-quote-right
+{
+	color: #67f;
+	text-align: right;
+	font-size: 25px;
+}
+
+
+#download
+{
+	padding-top: 100px;
+	background-color: #68f;
+	margin-block-start: 100px;
+}
+
+#download h1
+{
+font-size: 250%;	
+color: #fff;
+}
+
+#download p
+{
+	color:#fff;
+	font-size: 150%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.platform
+{
+	float:left;
+	width:50%;
+	margin-left: 50px;
+	align-content: justify;
+}
+
+.platform img
+{
+	padding-left:10px;
+}
+#footer ul li
+ {
+	list-style:none; 
+ }
+ 
+ #footer
+ {
+	background:#559;
+	height: 200px;
+	
+ }
+
+ .foot
+ {
+	 display:flex;
+ }
+  #footer ul
+	{
+		flex:1;
+		padding: 10px 0;
+	}
+	
+#footer ul li
+{
+	display: inline-block;
+	
+}
+
+#footer ul li a
+{
+	color: fff;
+	padding:10px;
+	display: inline-block;
+	transition:1s;
+	border-radius:5px;
+}
+
+#footer ul
+{
+	text-align:center;
+}
+
+ #footer ul li a:hover
+{
+	background:#fff;
+	color: #69f;
+}
+
+#footer ul li:nth-child(2) a
+{
+	background: #f96;
+	border-bottom: solid 3px #d74;
+}
+
+#footer ul li a:active
+{
+	margin-top:3px;
+	border: none;
+}
+
+
+#footer div a
+{
+	display:inline-block;
+	padding: 10px;
+}
+
+#footer hr
+{
+	color: #aaa;
+	size: 100px;
+}
+
+#footer p
+{
+	color:#aaa;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+
