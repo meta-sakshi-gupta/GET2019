@@ -1,0 +1,13 @@
+
+
+.left-space{
+    width:15%;
+}
+
+.sidebar{
+    overflow-y: scroll;
+    height:550px;
+}
+.topbar{
+    background-color: #50f;
+}
