@@ -1,0 +1,45 @@
+.left-space{
+    width:19%;
+}
+
+.sidebar{
+    overflow-y: scroll;
+    height:550px;
+}
+.topbar{
+    background-color: #50f;
+}
+
+.flag img{
+    height: 16px;
+}
+.user{
+    height: 40px;
+}
+.LineChart{
+height: 80%;
+}
+.DoughnutChart{
+ height: 80%;
+}
+
+#fb{
+    font-size: large;
+}
+.bg-default{
+background-color: #50f;
+}
+
+
+.bw{
+    width:90%;
+}
+.weather{
+    height:80%;
+}
+#t1{
+    width:60px;
+}
+.footer{
+    background-color: #eee;
+}
