@@ -1,0 +1,29 @@
+
+    <div class="container">
+        <div class="row">
+          <!--repeat card for every user-->
+            <div  class="col-md-4 my-5 " *ngFor="let user of array_of_user">
+              <div class="card w-100 p-3 usercard">
+                <div class="d-flex justify-content-between">
+                    <i class="fas fa-user icon text-secondary"></i>
+                  <div>
+                      <p class=font-weight-bold> {{user.name}}</p>
+                      <p><i class="fas fa-phone text-success"></i> {{user.contact}}</p>
+                      <p><i class="fas fa-map-marker-alt text-info"></i> {{user.location}}</p>
+                  </div>
+                </div>
+                <button type="button" class="btn text-primary" [class.selected]="user === selectedUser" (click)="onSelect(user)">Edit   <i class="px-3 fas fa-user-edit"></i></button>
+              </div>            
+            </div>
+        </div>
+    </div>
+
+      <!--user details if user is selected-->
+      <div class="container" *ngIf="selectedUser">
+ 
+        <h2>{{selectedUser.name | uppercase}} </h2>
+        <h2>{{selectedUser.contact | uppercase}} </h2>
+        <h2>{{selectedUser.location | uppercase}} </h2>
+       
+      </div>
+
